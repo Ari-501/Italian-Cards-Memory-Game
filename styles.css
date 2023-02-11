@@ -1,0 +1,68 @@
+#start-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 300px);
+  height: calc(100vh - 320px);
+  background-color: red;
+  border: 150px solid white;
+  overflow-y: hidden;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#play-again {
+  display: none;
+}
+
+#start-game {
+  width: 100px;
+  height: 80px;
+  border-radius: 100px;
+  background: linear-gradient(to right, green, white, red);
+  border: 2px solid black;
+  color: black;
+  font-weight: 700;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+  
+.difficulty-buttons {
+  display: none;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 960px;
+  border: 5px solid black;
+  margin-top: 50px;
+}
+
+#game-screen {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, green 0%, green 33.33%, white 33.33%, white 66.66%, red 66.66%, red 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#scores {
+  display: flex;
+  justify-content: space-evenly;
+  width: 960px;
+}
